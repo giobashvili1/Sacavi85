@@ -9,10 +9,10 @@
 body{
     margin: 0;
     
+    
 }
-
 .header{
-    width: 1645px;
+    width:1497px;
     height: 883px;
     background-color: #E3E3E3;
     border: 1px solid #E3E3E3;
@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    
     
 }
 .title{
@@ -29,7 +30,7 @@ body{
     font-weight: lighter;
     line-height: normal;
     margin-top: 20px;
-    margin-right: 300px;
+    margin-right: 170px;
     
     
 }
@@ -45,7 +46,7 @@ body{
 }
 .group2{
     position: absolute;
-    right: 745px;
+    right: 765px;
     top: 30px;
 }
 .account{
@@ -54,7 +55,7 @@ body{
     height: 19px;
     position: absolute;
     top: 31px;
-    right: 470px;
+    right: 485px;
     
 }
 .acc-title{
@@ -296,13 +297,14 @@ left: 30px;
     bottom: 15px; 
 }
 .vector{
+    
     position: absolute;
-    margin-left: 600px;
+    margin-left: 450px;
     margin-top: 140px;
 }
 /*              MAIN            */
 .main{
-    width: 1520px;
+    width: 100%;
     height: 70px;
     
     margin-top: 60px;
@@ -358,7 +360,7 @@ left: 30px;
 /*    fashion-cards       */
 
 .fashion{
-    width: 1470px;
+    width: 100%;
     height: 770px;
     
     margin-top: 0;
@@ -381,7 +383,7 @@ left: 30px;
     transform: rotate(-90deg);
     position: absolute;
     top: 250px;
-    right: 1070px;
+    right: 1085px;
     width: 648px;
     height: 52px;
 }
@@ -413,8 +415,12 @@ left: 30px;
 
 
 /*        PRICES      */
+.prices{
+    width: 1480px;
+}
 
 .price-text{
+   
     color: var(--Dark, #000);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -428,7 +434,8 @@ left: 30px;
     margin-left: 450px;
 }
 .list{
-     width: 1420px;
+     width:1480px
+     ;
      height: 52px;
 
      display: flex;
@@ -492,7 +499,7 @@ left: 30px;
 }
 /*       CONTAINER         */
 .container{
-    width: 1320px;
+    width: 1390px;
     height: 1141px;
     
     margin-top: 40px;
@@ -668,6 +675,7 @@ left: 30px;
         
     }
     .container2{
+        width: 1385px;
         position: absolute;
         margin-top: 500px;
         display: flex;
@@ -843,7 +851,7 @@ left: 30px;
     }
     /*     ZARA     */
 .zara{
-    width: 1645px;
+    width: 1495px;
     height: 900px;
     display: flex;
     position: absolute;
@@ -902,7 +910,7 @@ text-transform: capitalize;
 
 /*   LIST2     */
 .list2{
-    width: 1320px;
+    width: 1390px;
     height: 32px;
     
     display: flex;
@@ -911,6 +919,7 @@ text-transform: capitalize;
     left: 0;
 }
 .seller{
+    
     color: var(--Dark, #000);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -938,7 +947,7 @@ text-transform: capitalize;
     align-items: center;
     margin-top: 30px;
    position: absolute;
-   margin-left: 1500px;
+   margin-left: 1330px;
    
 }
 .filt-butt2{
@@ -962,7 +971,7 @@ text-transform: capitalize;
    top: 5px;
 }
 .pictures{
-    width: 1600px;
+    width: 1390px;
     height: 800px;
     position: absolute;
     display: flex;
@@ -986,7 +995,7 @@ text-transform: capitalize;
 }
 /*          SOCIAL          */
 .social{
-    width: 1645px;
+    width:100%;
     height: 554px;
     
     margin-top: 1850px;
@@ -1079,6 +1088,7 @@ text-transform: capitalize;
 /*         footer             */
 .footer{
     display: flex;
+    width: 1480px;
 }
 .coral{
     width: 492px;
@@ -1197,7 +1207,7 @@ label{
     text-transform: uppercase;
 }
 .last{
-    width: 1645px;
+    width:100%;
     height: 52px;
     background: var(--Black, #1E2832);
     background-image: url(./img/icons_payment\ 1.png);
